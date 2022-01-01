@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Predicting the Number of High PM2.5 Levels for Cities in China
 
 ### Project Background: PM2.5 stands for particular matter; tiny particles in the air usually with diameters around 2.5 micrometers or smaller. They can affect the respiratory and cardiovascular systems, and is associated with multiple diseases such as lung cancer and chronic bronchitis. It also can worsen the symptoms of patients with respiratory allergies. Sources of PM2.5 are: vehicles exhausts, burning fuels operations, power plants, and natural causes such as forest fires and volcanos. 
@@ -15,3 +16,7 @@ To filter the data and check eda, run eda.ipynb file. To train or load models, r
 
 
 For bugs and questions, contact: saadi.cv4 at gmail.com
+=======
+# PM_Levels_Predictions
+Predicting the Number of High PM2.5 Levels for Cities in China
+>>>>>>> d4f79e228fdc5a8cdb62b8de95c22d308da0bcf1
