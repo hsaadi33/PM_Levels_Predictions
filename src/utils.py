@@ -70,8 +70,8 @@ def plot_city_features_histograms(city_dict, city_dict_no_na, relevant_features)
                 ax[feature_index] = plt.subplot2grid((2, 12), (0, 3*count_col2),colspan=3)
                 count_col2 += 1
 
-            ax[feature_index].hist(df[feature], bins=15, alpha=0.5, label=feature)
-            ax[feature_index].hist(city_dict_no_na[city][feature], bins=15, alpha=0.5, label=feature+' after filtering')
+            ax[feature_index].hist(df[feature], bins=15, alpha=0.5, density=True, label=feature)
+            ax[feature_index].hist(city_dict_no_na[city][feature], bins=15, alpha=0.5, density=True, label=feature+' after filtering')
             ax[feature_index].set_xlabel(feature)
             ax[feature_index].legend()
 
